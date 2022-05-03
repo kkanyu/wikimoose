@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto+Mono:wght@500&display=swap');
+.userNotes {
+    border: 1px solid rgb(var(--accent));
+    padding: 1rem 1.5rem 1rem 1rem;
+    font: 500 0.73rem/165% 'inter';
+    text-align: left;
+}
+
+.userNotes h1 {
+    text-transform: uppercase;
+    color: rgb(var(--accent));
+    font-size: 1rem;
+}
+
+.userNotes ul li {
+    margin: 0.35rem 0;
+}
+
+.userNotes code {
+    font: 500 0.75rem/165% 'roboto mono';
+    display: inline-block;
+}
+
+.userNotes a {
+    font-weight: 700;
+}
+
+.userNotes a:hover {
+    filter: hue-rotate(90deg);
+}
+
+.userNotes code,
+.userNotes b,
+.userNotes strong,
+.userNotes i,
+.userNotes em,
+.userNotes s,
+.userNotes u,
+.userNotes a {
+    color: rgb(var(--accent));
+}
