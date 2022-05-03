@@ -1,0 +1,42 @@
+.family_tree {
+    display: grid;
+    grid-template-columns: repeat(18, 40px);
+    font-family: sans-serif;
+    margin: 1em 0;
+}
+
+.family_tree>div {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.7rem;
+    border: 1px solid #333;
+    align-items: center;
+    align-self: center;
+    line-height: 1.3em;
+}
+
+.family_tree span {
+    display: block;
+    font-size: 85%;
+    color: #999!important;
+}
+
+.family_tree .f {
+    background-color: #FFF4F9;
+}
+
+.family_tree .m {
+    background-color: #F4F9FF;
+}
+
+.family_tree [class*="create"] {
+    height: 25px;
+}
+
+.family_tree [class*="connect"] {
+    height: initial;
+}
+
+.family_tree [class*="connect-"] {
+    height: 10px;
+}

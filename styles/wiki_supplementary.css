@@ -1,0 +1,203 @@
+.wikiContainer table {
+    background-color: #f8f9fa;
+    border-collapse: collapse;
+    border: 1px solid #a2a9b1;
+    color: var(--bodyColor);
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin: 1em 0;
+}
+
+.wikiContainer table span:hover {
+    text-decoration: underline;
+}
+
+.wikiContainer table tr th,
+.wikiContainer table>*>tr>th,
+.wikiContainer table>*>tr>td {
+    border: 1px solid #a2a9b1;
+    padding: 0.5em 0.75em;
+}
+
+.wikiContainer table>tr>th,
+.wikiContainer table>*>tr>th {
+    background-color: #eaecf0;
+}
+
+.wikiContainer table ul,
+.wikiContainer table ol {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.wikiContainer table th {
+    font-weight: normal;
+    text-align: left;
+}
+
+.wikiContainer table th img {
+    vertical-align: middle;
+}
+
+.wikiContainer table th img.bordered {
+    border: 1px solid #eaecf0;
+}
+
+.wikiContainer table tr:first-of-type th {
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wikiContainer table.albums th {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.wikiContainer table.albums tr.unreleased td {
+    background-color: #E7E7FF;
+}
+
+.wikiContainer table.singles td:last-of-type {
+    font-style: italic;
+    text-align: center;
+}
+
+.wikiContainer table td.null,
+.wikiContainer table.athlete_program td.null {
+    background-color: #ececec;
+    font-style: normal;
+    text-align: center;
+}
+
+.wikiContainer table.film td:first-of-type {
+    font-style: italic;
+}
+
+.wikiContainer table.athlete_legend td:first-of-type {
+    background-color: #afe6ba;
+}
+
+.wikiContainer table.awards tr th,
+.wikiContainer table.awards tr td,
+.wikiContainer table.awards_personal tr th,
+.wikiContainer table.awards_personal tr td,
+.wikiContainer table.athlete_team tr th,
+.wikiContainer table.athlete_solo tr th {
+    background-color: #f8f9fa;
+    text-align: left;
+}
+
+.wikiContainer table.awards tr:first-of-type th,
+.wikiContainer table.awards_personal tr:first-of-type th,
+.wikiContainer table.athlete_team tr:first-of-type th,
+.wikiContainer table.athlete_solo tr:first-of-type th {
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+.wikiContainer table.athlete_team tr>td:first-of-type {
+    text-align: left;
+}
+
+.wikiContainer table.athlete_team tr>td,
+.wikiContainer table.athlete_team tr th[colspan]+td:first-of-type {
+    text-align: right;
+}
+
+.wikiContainer table.athlete_team tr.championship th {
+    background-color: #afe6ba;
+}
+
+.wikiContainer table.athlete_team tr th[colspan] {
+    text-align: center;
+}
+
+.wikiContainer table.athlete_solo,
+.wikiContainer table.athlete_medals {
+    text-align: center;
+}
+
+.wikiContainer table .gold {
+    background-color: #ffd700;
+}
+
+.wikiContainer table .col_gold {
+    background-color: #f7f6a8;
+}
+
+.wikiContainer table .silver {
+    background-color: #c0c0c0;
+}
+
+.wikiContainer table .col_silver {
+    background-color: #dce5e5;
+}
+
+.wikiContainer table .bronze {
+    background-color: #cc9966;
+}
+
+.wikiContainer table .col_bronze {
+    background-color: #ffdab9;
+}
+
+.wikiContainer table .disqualified {
+    background-color: #f5a9a9;
+}
+
+.wikiContainer table.athlete_medals tr:last-of-type,
+.wikiContainer table.athlete_medals tr:last-of-type th,
+.wikiContainer table.athlete_medals tr:last-of-type td {
+    background-color: #eaecf0;
+    font-weight: bold;
+}
+
+.wikiContainer table.athlete_medals td:last-of-type,
+.wikiContainer table.athlete_program th {
+    font-weight: bold;
+}
+
+.wikiContainer table.athlete_program td {
+    font-style: italic;
+}
+
+.wikiContainer table.athlete_program td ul,
+.wikiContainer table.athlete_program td ol {
+    font-style: normal;
+    font-size: 90%;
+}
+
+.wikiContainer table.athlete_program details summary {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.wikiContainer table.awards td:nth-child(3) {
+    font-style: italic;
+}
+
+.wikiContainer table.awards td:last-of-type,
+.wikiContainer table.awards_personal td:last-of-type {
+    background: #FFE3E3;
+    text-align: center;
+    font-style: normal;
+}
+
+.wikiContainer table.awards td.won,
+.wikiContainer table.awards_personal td.won {
+    background: #9EFF9E;
+}
+
+.wikiContainer table.awards td.ranked,
+.wikiContainer table.awards_personal td.ranked {
+    background: #CDE;
+}
+
+.wikiContainer table.awards td.self,
+.wikiContainer table.awards_personal td.self {
+    font-style: normal;
+}
