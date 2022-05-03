@@ -1,0 +1,199 @@
+.wikiContainer {
+    --bodyColor: #202122;
+    --linkAccent: #0645ad;
+}
+
+.wikiContainer {
+    background-color: #fff;
+    border-radius: 1px;
+    border: 1px solid #a7d7f9;
+    color: var(--bodyColor);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal;
+    line-height: 1.6;
+    padding: 10px 20px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wikiContainer a {
+    border: none;
+    color: var(--linkAccent);
+}
+
+.wikiContainer span {
+    color: var(--linkAccent);
+}
+
+.contents {
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    display: inline-block;
+    font-size: 95%;
+    padding: 7px 5px;
+}
+
+.contents:before {
+    content: "Contents";
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contents ol {
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+}
+
+.contents li {
+    color: var(--linkAccent);
+    display: block;
+    list-style-type: none;
+    margin-left: 1em;
+    margin-right: 5px;
+}
+
+.contents li:before {
+    color: var(--bodyColor);
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
+
+.wikiContainer h1,
+.wikiContainer h2 {
+    display: block;
+    font-family: serif;
+    font-weight: normal;
+    margin-bottom: 0.6em;
+}
+
+.wikiContainer h1 {
+    font-size: 188%;
+}
+
+.wikiContainer h1::after {
+    border-top: 1px solid #a2a9b1;
+    content: "From Wikimoose, encyclopedia for a simple life";
+    display: block;
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0 0;
+}
+
+.wikiContainer h2 {
+    border-bottom: 1px solid #a2a9b1;
+    font-size: 150%;
+}
+
+.wikiContainer h3 {
+    font-size: 120%;
+    font-weight: bold;
+    margin: 0px;
+    padding-bottom: 0.17em;
+    padding-top: 0.5em;
+}
+
+.wikiContainer h2:after,
+.wikiContainer h3:after {
+    color: var(--linkAccent);
+    content: '[ edit ]';
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: normal;
+    margin-left: 1em;
+    vertical-align: baseline;
+}
+
+.wikiContainer h2:after:hover {
+    text-decoration: underline;
+}
+
+.wikiContainer p {
+    display: block;
+    font-weight: normal;
+    margin: 0.4em 0 0.5em 0;
+}
+
+.wikiContainer p span,
+.wikiContainer ul li span {
+    color: var(--linkAccent);
+}
+
+.wikiContainer p i,
+.wikiContainer li i {
+    color: inherit;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.wikiContainer h2 i,
+.wikiContainer h3 i {
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+.wikiContainer p span:hover,
+.wikiContainer ul li span:hover,
+.contents ol li span:hover,
+.wikiContainer .disambiguation span:hover {
+    text-decoration: underline;
+}
+
+.wikiContainer h3+p {
+    margin: 0;
+}
+
+.wikiContainer .disambiguation {
+    font-style: italic;
+    margin: 0 0 0 2em;
+}
+
+.references ol {
+    font-size: 95%;
+}
+
+.endnote {
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    color: var(--linkAccent);
+    padding: 5px 7px;
+}
+
+.endnote:before {
+    content: "Categories: "
+}
+
+.endnote span:after {
+    color: #a2a9b1;
+    content: " | ";
+    margin: 0 5px;
+}
+
+.endnote span:last-of-type:after {
+    content: " ";
+}
+
+.credit {
+    border: none;
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 90%;
+    margin: 0.25rem auto;
+}
+
+.credit a {
+    border: none;
+    color: #ddd;
+    text-decoration: none;
+}
