@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WIKIMOOSE 2.0: Codes</title>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+<h1>qingxin&rsquo;s wikimoose 2.0</h1>
+
+<nav>
+<ul>
+<li><a href="#celebrity_general"> Celebrity: General </a></li>
+<li><a href="#musician_singles"> Musicians: Singles </a></li>
+<li><a href="#musician_albums"> Musicians: Albums </a></li>
+<li><a href="#awards_comprehensive"> Awards: Comprehensive </a></li>
+<li><a href="#personal_awards"> Awards: Personal </a></li>
+<li><a href="#athelete_teams"> Athlete (Teams): Competition History </a></li>
+<li><a href="#athlete_solo_history"> Athlete (Solo): Competition History </a></li>
+<li><a href="#athlete_solo_medals"> Athlete (Solo): Medals </a></li>
+<li><a href="#athlete_solo_programs"> Athlete (Solo): Programs </a></li>
+</ul>
+</nav>
+
+</header>
+
+<main>
+
+<section class="table_elements">
+<h1>Table Elements</h1>
+
+<section id="celebrity_general">
+<h2>Celebrity Credits: General</h2>
+<article>
+<h3>starter code</h3>
+<pre><div class="code"><code>&lt;table class="film"&gt;
+
+&lt;tr&gt;
+&lt;th&gt; Year &lt;/th&gt;
+&lt;th&gt; Title &lt;/th&gt;
+&lt;th&gt; Role &lt;/th&gt;
+&lt;th&gt; Notes &lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;th&gt; YYYY &lt;/th&gt;
+&lt;td&gt;&lt;span&gt; Film Title &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; Role Name &lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+</code></div></pre>
+</article>
+
+<article>
+<h3>new row code</h3>
+<pre><div class="code"><code>&lt;tr&gt;
+&lt;th&gt; YYYY &lt;/th&gt;
+&lt;td&gt;&lt;span&gt; Title &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt; Role Name &lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+</code></div></pre>
+</article>
+
+</section>
+
+<section id="musician_singles">
+<h2>Musicians: Singles</h2>
+<article>
+<h3>starter code</h3>
+<pre><div class="code"><code>&lt;table class="singles"&gt;
+
+&lt;tr&gt;
+&lt;th&gt; Title &lt;/th&gt;
+&lt;th&gt; Year &lt;/th&gt;
+&lt;th&gt; Album &lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;	
+&lt;th&gt;&lt;span&gt; "Single Title" &lt;/span&gt;&lt;/th&gt;
+&lt;td&gt; YYYY &lt;/td&gt;
+&lt;td&gt;&lt;span&gt; Album Title &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</code></div></pre>
+</article>
+
+<article>
+<h3>new row code</h3>
+<pre><div class="code"><code>&lt;tr&gt;	
+&lt;th&gt;&lt;span&gt; "Single Title" &lt;/span&gt;&lt;/th&gt;
+&lt;td&gt; YYYY &lt;/td&gt;
+&lt;td&gt;&lt;span&gt; Album Title &lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;</code></div></pre>
+</article>
+
+</section>
+
+<section id="musician_albums">
+<h2>Musicians: Albums</h2>
+
+<article>
+<h3>starter code</h3>
+<pre><div class="code"><code>&lt;table class="albums"&gt;
+
+&lt;tr&gt;
+&lt;th&gt; Title &lt;/th&gt;
+&lt;th&gt; Album Details &lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;th&gt;&lt;span&gt; Album Title &lt;/span&gt;&lt;/th&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt; Released: DD MM YYYY &lt;/li&gt;
+&lt;li&gt; Label: &lt;span&gt;Agency Label&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt; Formats: &lt;span&gt;CD&lt;/span&gt;, &lt;span&gt;LP&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+</code></div></pre>
+</article>
+
+<article>
+<h3>new row code</h3>
+<pre><div class="code"><code>&lt;tr&gt;
+&lt;th&gt;&lt;span&gt; Album Title &lt;/span&gt;&lt;/th&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt; Released: DD MM YYYY &lt;/li&gt;
+&lt;li&gt; Label: &lt;span&gt;Agency Label&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt; Formats: &lt;span&gt;CD&lt;/span&gt;, &lt;span&gt;LP&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;</code></div></pre>
+</article>
+
+</section>
+
+<section id="awards_comprehensive">
+<h2>Awards: Comprehensive</h2>
+
+<article>
+<h3>starter code</h3>
+<pre><div class="code"><code>&lt;table class="gen_legend"&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&dagger;&lt;/td&gt;
+&lt;td&gt;Indicates non-competitive categories &lt;/span&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;table class="awards"&gt;
+
+&lt;tr&gt;
+&lt;th&gt; Year &lt;/th&gt;
+&lt;th&gt; Category &lt;/th&gt;
+&lt;th&gt; Work &lt;/th&gt;
+&lt;th&gt; Result &lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+</code></div></pre>
+</article>
+
+<article>
+<h3>new row</h3>
+<pre><div class="code"><code>&lt;tr&gt;
+&lt;th&gt;&lt;span&gt; Album Title &lt;/span&gt;&lt;/th&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt; Released: DD MM YYYY &lt;/li&gt;
+&lt;li&gt; Label: &lt;span&gt;Agency Label&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt; Formats: &lt;span&gt;CD&lt;/span&gt;, &lt;span&gt;LP&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;/tr&gt;</code></div></pre>
+</article>
+
+</section>
+
+<section id="personal_awards">
+<h2>Awards: Personal</h2>
+<article>
+<h3>starter code</h3>
+<pre><div class="code"><code>&lt;table class="awards_personal"&gt;
+
+&lt;tr&gt;
+&lt;th&gt; Year &lt;/th&gt;
+&lt;th&gt; Association &lt;/th&gt;
+&lt;th&gt; Award &lt;/th&gt;
+&lt;th&gt; Outcome &lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;th&gt; YYYY &lt;/th&gt;
+&lt;td&gt; Awarding Association &lt;/td&gt;
+&lt;td&gt; Award Name &lt;/td&gt;
+&lt;td&gt; Nominated &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+</code></div></pre>
+</article>
+
+<article>
+<h3>new row code</h3>
+<pre><div class="code"><code>&lt;tr&gt;
+&lt;th&gt; YYYY &lt;/th&gt;
+&lt;td&gt; Awarding Association &lt;/td&gt;
+&lt;td&gt; Award Name &lt;/td&gt;
+&lt;td&gt; Nominated &lt;/td&gt;
+&lt;/tr&gt;</code></div></pre>
+</article>
+
+</section>
+
+<section id="athelete_teams">
+<h2>Athlete: Team (Competition History)</h2>
+
+
+<article>
+<h3>starter code</h3>
+<pre><div class="code"><code>&lt;table class="athlete_legend"&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&dagger;&lt;/td&gt;
+&lt;td&gt;Won a &lt;span&gt;Championship&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+
+&lt;table class="athlete_team"&gt;
+
+&lt;tr&gt;
+&lt;th&gt;Year&lt;/th&gt;
+&lt;th&gt;Team&lt;/th&gt;
+&lt;th&gt;Games Played&lt;/th&gt;
+&lt;th&gt;Games Started&lt;/th&gt;
+&lt;th&gt;Points per Game&lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;th&gt; &lt;span&gt; YYYY&ndash;YY &lt;/span&gt; &lt;/th&gt;
+&lt;td&gt; &lt;span&gt; Team Name &lt;/span&gt; &lt;/td&gt;
+&lt;td&gt; ## &lt;/td&gt;
+&lt;td&gt; ## &lt;/td&gt;
+&lt;td&gt; ## &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;th colspan="2"&gt; Career &lt;/th&gt;
+&lt;td&gt; ## &lt;/td&gt;
+&lt;td&gt; ## &lt;/td&gt;
+&lt;td&gt; ## &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+</code></div></pre>
+</article>
+
+<article>
+<h3>new row</h3>
+<pre><div class="code"><code>&lt;tr&gt;
+&lt;th&gt; &lt;span&gt; YYYY&ndash;YY &lt;/span&gt; &lt;/th&gt;
+&lt;td&gt; &lt;span&gt; Team Name &lt;/span&gt; &lt;/td&gt;
+&lt;td&gt; ## &lt;/td&gt;
+&lt;td&gt; ## &lt;/td&gt;
+&lt;td&gt; ## &lt;/td&gt;
+&lt;/tr&gt;</code></div></pre>
+</article>
+
+</section>
+
+<section id="athlete_solo_history">
+<h2>Athlete: Individual (Competition History)</h2>
+
+
+<article>
+<h3>starter code</h3>
+<pre><div class="code"><code>&lt;table class="athlete_solo"&gt;
+
+&lt;tr&gt;
+&lt;th&gt; Year &lt;/th&gt;
+&lt;th&gt; Competition &lt;/th&gt;
+&lt;th&gt; Venue &lt;/th&gt;
+&lt;th&gt; Position &lt;/th&gt;
+&lt;th&gt; Event &lt;/th&gt;
+&lt;th&gt; Time &lt;/th&gt;
+&lt;th&gt; Notes &lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;th&gt; YYYY &lt;/th&gt;
+&lt;td&gt; Competition Name &lt;/td&gt;
+&lt;td&gt; &lt;span&gt;City, State&lt;/span&gt;, Country &lt;/td&gt;
+&lt;td&gt; Rank &lt;/td&gt;
+&lt;td&gt; Event Name &lt;/td&gt;
+&lt;td&gt; Time &lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+</code></div></pre>
+</article>
+
+<article>
+<h3>new row</h3>
+<pre><div class="code"><code>&lt;tr&gt;
+&lt;th&gt; YYYY &lt;/th&gt;
+&lt;td&gt; Competition Name &lt;/td&gt;
+&lt;td&gt; &lt;span&gt;City, State&lt;/span&gt;, Country &lt;/td&gt;
+&lt;td&gt; Rank &lt;/td&gt;
+&lt;td&gt; Event Name &lt;/td&gt;
+&lt;td&gt; Time &lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;</code></div></pre>
+</article>
+
+</section>
+
+<section id="athlete_solo_medals">
+<h2>Athlete: Individual (Medals for Ranked Competitions)</h2>
+
+
+<article>
+<h3>starter code</h3>
+<pre><div class="code"><code>&lt;table class="athlete_medals"&gt;
+
+&lt;colgroup&gt;
+&lt;col&gt;
+&lt;col&gt;
+&lt;col class="col_gold"&gt;
+&lt;col class="col_silver"&gt;
+&lt;col class="col_bronze"&gt;
+&lt;/colgroup&gt;
+
+&lt;tr&gt;
+&lt;th&gt; Event &lt;/th&gt;
+&lt;th&gt; Participation &lt;/th&gt;
+&lt;th class="gold"&gt; Gold &lt;/th&gt;
+&lt;th class="silver"&gt; Silver &lt;/th&gt;
+&lt;th class="bronze"&gt; Bronze &lt;/th&gt;
+&lt;th&gt; Total &lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;th&gt;
+&lt;img src="" alt=""&gt;
+&lt;span&gt; Event Name &lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;th&gt;Total&lt;/th&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;
+</code></div></pre>
+</article>
+
+<article>
+<h3>new row</h3>
+<pre><div class="code"><code>&lt;tr&gt;
+&lt;th&gt;
+&lt;img src="" alt=""&gt;
+&lt;span&gt; Event Name &lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;td&gt; # &lt;/td&gt;
+&lt;/tr&gt;</code></div></pre>
+</article>
+
+</section>
+
+<section id="athlete_solo_programs">
+<h2>Athlete: Individual (Programs)</h2>
+
+<article>
+<h3>starter code</h3>
+<pre><div class="code"><code>&lt;table class="athlete_program"&gt;
+
+&lt;tr&gt;
+&lt;th&gt; Season &lt;/th&gt;
+&lt;th&gt;&lt;span&gt; Short Program &lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span&gt; Free Skating &lt;/span&gt;&lt;/th&gt;
+&lt;th&gt; Exhibition Gala/Ice Show &lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;th&gt; YYYY&ndash;YY &lt;/th&gt;
+&lt;td&gt;
+&lt;span&gt;Program Title&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt; Composed by Composer &lt;/li&gt;
+&lt;li&gt; Choreo. by Choreographer &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;span&gt;Program Title&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt; Composed by Composer &lt;/li&gt;
+&lt;li&gt; Choreo. by Choreographer &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt; Program Title &lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;/table&gt;</code></div></pre>
+</article>
+
+<article>
+<h3>new row</h3>
+<pre><div class="code"><code>&lt;tr&gt;
+&lt;th&gt; YYYY&ndash;YY &lt;/th&gt;
+&lt;td&gt;
+&lt;span&gt;Program Title&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt; Composed by Composer &lt;/li&gt;
+&lt;li&gt; Choreo. by Choreographer &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;span&gt;Program Title&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt; Composed by Composer &lt;/li&gt;
+&lt;li&gt; Choreo. by Choreographer &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt; Program Title &lt;/td&gt;
+&lt;/tr&gt;</code></div></pre>
+</article>
+
+</section>
+
+</section>
+
+<div id="top">
+<a href="#">↑</a>
+</div>
+
+</main>
+
+</body>
+
+<script>
+const copyButtonLabel = "Copy Code";
+
+// You can use a class selector instead if available. 
+let blocks = document.querySelectorAll("pre");
+
+blocks.forEach((block) => {
+// only add button if browser supports Clipboard API
+if (navigator.clipboard) {
+let button = document.createElement("button");
+button.innerText = copyButtonLabel;
+button.addEventListener("click", copyCode);
+block.appendChild(button);
+}
+});
+
+async function copyCode(event) {
+const button = event.srcElement;
+const pre = button.parentElement;
+let code = pre.querySelector("code");
+let text = code.innerText;
+await navigator.clipboard.writeText(text);
+
+button.innerText = "Code Copied";
+
+setTimeout(() => {
+button.innerText = copyButtonLabel;
+}, 1000)
+
+}
+</script>
+
+</html>
