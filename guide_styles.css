@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto+Mono:wght@500&display=swap');
 .userNotes {
     border: 1px solid rgb(var(--accent));
+    box-sizing: border-box!important;
     padding: 1rem 1.5rem 1rem 1rem;
     font: 500 0.73rem/165% 'inter';
     margin: 0 auto;
