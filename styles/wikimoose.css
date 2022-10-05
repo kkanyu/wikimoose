@@ -27,6 +27,15 @@
     color: var(--linkAccent);
 }
 
+.wikiContainer i {
+    opacity: 1;
+    font-size: inherit;
+}
+
+.wikiContainer ul, .wikiContainer ol {
+    margin: 1em 0;
+}
+
 .wikiContainer .contents {
     background-color: #f8f9fa;
     border: 1px solid #a2a9b1;
