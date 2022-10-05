@@ -68,10 +68,14 @@
     font-family: serif;
     font-weight: normal;
     margin-bottom: 0.6em;
+    
 }
 
 .wikiContainer h1 {
     font-size: 188%;
+    padding: 0;
+    text-transform: none;
+    margin: 1em 0;
 }
 
 .wikiContainer h1::after {
@@ -87,7 +91,11 @@
 
 .wikiContainer h2 {
     border-bottom: 1px solid #a2a9b1;
-    font-size: 150%;
+    font-size: 150%;    
+    text-transform: none;
+    color: var(--bodyColor)!important;
+    background: none;
+    width: auto;
 }
 
 .wikiContainer h3 {
@@ -96,6 +104,11 @@
     margin: 0px;
     padding-bottom: 0.17em;
     padding-top: 0.5em;
+    background: none;
+    -webkit-text-fill-color: revert;
+    text-transform: none;
+    font-family: sans-serif;
+    color: inherit;
 }
 
 .wikiContainer h2:after,
@@ -153,6 +166,14 @@
 .wikiContainer .disambiguation {
     font-style: italic;
     margin: 0 0 0 2em;
+}
+
+.wikiContainer b {
+    font: inherit;
+    color: inherit;
+    background: none;
+    -webkit-text-fill-color: revert;
+    font-weight: bold;
 }
 
 .references ol {
