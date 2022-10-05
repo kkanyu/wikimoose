@@ -199,6 +199,20 @@
     border: none;
 }
 
+.wikiContainer ol li::before, .wikiContainer ul li::before {
+    color: revert;
+    font-family: revert;
+    letter-spacing: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wikiContainer ol li::before {
+    content: counter(ol-counter) ".";
+}
+
 .endnote {
     background-color: #f8f9fa;
     border: 1px solid #a2a9b1;
