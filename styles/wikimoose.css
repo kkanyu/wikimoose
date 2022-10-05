@@ -193,6 +193,12 @@
     font-size: 95%;
 }
 
+.wikiContainer ul li, .wikiContainer ol li {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 .endnote {
     background-color: #f8f9fa;
     border: 1px solid #a2a9b1;
