@@ -67,6 +67,12 @@
     color: var(--bodyColor);
     content: counters(item, ".") " ";
     counter-increment: item;
+    display: initial;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    letter-spacing: inherit;
 }
 
 .wikiContainer h1,
