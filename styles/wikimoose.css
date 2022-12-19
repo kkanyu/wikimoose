@@ -132,6 +132,7 @@
     text-transform: none;
     font-family: sans-serif;
     color: inherit;
+    border: none;
 }
 
 .wikiContainer h2:after,
